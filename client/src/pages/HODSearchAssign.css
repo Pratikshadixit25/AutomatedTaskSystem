@@ -1,0 +1,263 @@
+.hod-page {
+  padding: 30px 40px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.hod-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.hod-header h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.hod-header-sub {
+  margin-top: 6px;
+  color: #666;
+  font-size: 14px;
+}
+
+.hod-message {
+  background: #e0f2fe;
+  border-left: 4px solid #3b82f6;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+/* Page layout */
+.hod-layout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 20px;
+}
+
+/* LEFT SIDE */
+.hod-left {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Search box */
+.hod-search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.hod-search-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.hod-search-box button {
+  padding: 10px 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.hod-search-box button:hover {
+  background: #1d4ed8;
+}
+
+/* Results */
+.hod-section-title {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.hod-user-list {
+  background: #ffffff;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+
+.hod-user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.hod-user-card {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 12px 12px;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  transition: 0.2s ease;
+}
+
+.hod-user-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+  border-color: #3b82f6;
+}
+
+.hod-user-card.selected {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.hod-user-role {
+  font-size: 12px;
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.hod-user-name {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.hod-user-email {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.hod-user-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: #4b5563;
+  margin-top: 4px;
+}
+
+.hod-user-hint {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+/* RIGHT SIDE - ASSIGN FORM */
+.hod-right {
+  display: flex;
+  align-items: stretch;
+}
+
+.hod-assign-card {
+  width: 100%;
+  background: #ffffff;
+  padding: 18px 18px 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hod-assign-card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.hod-assign-hint {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.hod-selected-info {
+  background: #eff6ff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.hod-selected-email {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.hod-tag {
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  margin-left: 4px;
+}
+
+.hod-assign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hod-assign-form input[type="text"],
+.hod-assign-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.hod-assign-form textarea {
+  min-height: 80px;
+}
+
+.hod-date-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: #374151;
+  gap: 4px;
+}
+
+.hod-date-label input[type="date"] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.hod-assign-form button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 4px;
+}
+
+.hod-assign-form button:hover {
+  background: #16a34a;
+}
+
+.hod-assign-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hod-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hod-page {
+    padding: 20px;
+  }
+}

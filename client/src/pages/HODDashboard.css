@@ -1,0 +1,76 @@
+
+.hod-dashboard-container {
+  height: 100vh;
+  width: 100%;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.hod-card {
+  width: 420px;
+  background: #ffffff;
+  padding: 35px 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.hod-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2b2d42;
+}
+
+
+.hod-subtitle {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #6e6e6e;
+  line-height: 1.4;
+}
+
+
+.hod-actions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.hod-btn {
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  display: block;
+}
+
+
+.hod-btn-primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.hod-btn-primary:hover {
+  background: #1d4ed8;
+}
+
+
+.hod-btn-secondary {
+  background: #f3f4f6;
+  color: #111;
+  border: 1px solid #d1d5db;
+}
+
+.hod-btn-secondary:hover {
+  background: #e5e7eb;
+}

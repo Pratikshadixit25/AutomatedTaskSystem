@@ -1,0 +1,52 @@
+nav .nav-link {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+nav .nav-link:hover {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+nav .active-link {
+  background: #3b82f6;
+  color: #ffffff !important;
+}
+/* NAV LINKS – MODERN BUTTON STYLE */
+.nav-link {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  background: transparent;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  background: #e0e7ff;
+  color: #1e3a8a;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Active route */
+.active-link {
+  background: #3b82f6 !important;
+  color: white !important;
+  box-shadow: 0 3px 10px rgba(59,130,246,0.4);
+}
+
+/* Navbar spacing fix */
+nav .center-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+
+

@@ -1,0 +1,106 @@
+.alltasks-container {
+  padding: 30px;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.alltasks-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2b2d42;
+}
+
+.alltasks-sub {
+  text-align: center;
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.table-wrap {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.08);
+  overflow-x: auto;
+}
+
+.modern-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.modern-table thead th {
+  background: #3b82f6;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+
+.modern-table tbody tr {
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.modern-table tbody tr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+}
+
+.modern-table td {
+  padding: 14px;
+  font-size: 14px;
+  color: #333;
+}
+
+.modern-table td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.modern-table td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Status badges */
+.badge-pending {
+  background: #fff3cd;
+  color: #856404;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-completed {
+  background: #d4edda;
+  color: #155724;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Delete button */
+.delete-btn {
+  padding: 6px 12px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #b02a37;
+}
